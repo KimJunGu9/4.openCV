@@ -2,6 +2,8 @@ import cv2
 import numpy as np
 
 oldx = oldy = -1  # 함수 바깥에 있으니 전역변수
+# -1을 한 이유는 x,y의 좌표가 0,0이 있으니 아예 없는 값을 설정한 것
+
 
 # 마우스 이벤트
 
