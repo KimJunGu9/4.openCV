@@ -41,6 +41,32 @@ for i in range(frame_cnt2):
     cv2.imshow('output', frame2)
     cv2.waitKey(delay)
 
+
+# while True:
+#     ret1, frame1 = cap1.read()
+#
+#     if not ret1:
+#         break
+#
+#     out.write(frame1)
+#     cv2.imshow('frame1', frame1)
+#
+#     if cv2.waitKey(delay) == 27:
+#         break
+#
+# while True:
+#     ret2, frame2 = cap2.read()
+#
+#     if not ret2:
+#         break
+#
+#     out.write(frame2)
+#     cv2.imshow('frame2', frame2)
+#
+#     if cv2.waitKey(delay) == 27:
+#         break    
+    
+
 cap1.release()
 cap2.release()
 out.release()
